@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'PNKeyboardStateListener_Example', :exclusive => true do
+  pod 'PNKeyboardStateListener', :path => '../'
+end
+
+target 'PNKeyboardStateListener_Tests', :exclusive => true do
+  pod 'PNKeyboardStateListener', :path => '../'
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
