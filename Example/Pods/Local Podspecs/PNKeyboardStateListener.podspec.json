@@ -1,0 +1,24 @@
+{
+  "name": "PNKeyboardStateListener",
+  "version": "0.1.0",
+  "summary": "A short description of PNKeyboardStateListener.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PNKeyboardStateListener",
+  "license": "MIT",
+  "authors": {
+    "Giuseppe Nucifora": "me@giuseppenucifora.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PNKeyboardStateListener.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PNKeyboardStateListener/Classes/**/*",
+  "resource_bundles": {
+    "PNKeyboardStateListener": [
+      "PNKeyboardStateListener/Assets/*.png"
+    ]
+  }
+}
